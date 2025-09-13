@@ -104,7 +104,7 @@ class Telegraph(aiograph.Telegraph):
                             f'({retry_after}s)')
                 if retry_after >= 60:
                     # create a now account if retry_after sucks
-                    await self.create_account(short_name='jp0id', author_name='jp0id',
+                    await self.create_account(short_name='engdawood', author_name='engdawood',
                                               author_url='https://t.me/pm_JP_bot')
                     logger.warning(f'Wanna let me wait? No way! Created a new Telegraph account: {self.token}')
                 else:
@@ -128,14 +128,14 @@ class APIs:
             try:
                 if len(token) != 60:  # must be an invalid token
                     logger.warning('Telegraph API token may be invalid, create one instead.')
-                    await account.create_account(short_name='jp0id', author_name='jp0id',
+                    await account.create_account(short_name='engdawood', author_name='engdawood',
                                                  author_url='https://t.me/pm_JP_bot')
                 await account.get_account_info()
                 self._accounts.append(account)
             except aiograph.exceptions.TelegraphError as e:
                 logger.warning(f'Telegraph API token may be invalid, create one instead: {e}')
                 try:
-                    await account.create_account(short_name='jp0id', author_name='jp0id',
+                    await account.create_account(short_name='engdawood', author_name='engdawood',
                                                  author_url='https://t.me/pm_JP_bot')
                     self._accounts.append(account)
                 except Exception as e:
@@ -336,10 +336,10 @@ class TelegraphIfy:
                 self.telegraph_author += f' ({self.author})'
             self.telegraph_author_url = self.link or ''
         else:
-            self.telegraph_author = 'Maintained by jp0id'
+            self.telegraph_author = 'Maintained by engdawood'
             self.telegraph_author_url = 'https://t.me/pm_JP_bot'
 
-        self.telegraph_title = self.title or 'Maintained by jp0id'
+        self.telegraph_title = self.title or 'Maintained by engdawood'
         self.telegraph_html_content = (soup.decode())
         # self.telegraph_html_content = (soup.decode() +
         #                                '<p>—————————————</p>'

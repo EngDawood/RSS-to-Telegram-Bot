@@ -5,10 +5,10 @@
 **关心你的阅读体验的 Telegram RSS 机器人**
 
 
-[![GitHub last commit (dev)](https://img.shields.io/github/last-commit/Jv0id/RSS-to-Telegram-Bot/dev?logo=github)](https://github.com/Jv0id/RSS-to-Telegram-Bot/commits/dev)
+[![GitHub last commit (dev)](https://img.shields.io/github/last-commit/engdawood/RSS-to-Telegram-Bot/dev?logo=github)](https://github.com/engdawood/RSS-to-Telegram-Bot/commits/dev)
 [![Translating status](https://img.shields.io/weblate/progress/rss-to-telegram-bot?logo=weblate&color=informational)](https://hosted.weblate.org/engage/rss-to-telegram-bot/)
-[![GitHub stars](https://img.shields.io/github/stars/Jv0id/Rss-to-Telegram-Bot?style=social)](https://github.com/Jv0id/RSS-to-Telegram-Bot/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Jv0id/RSS-to-Telegram-Bot?style=social)](https://github.com/Jv0id/RSS-to-Telegram-Bot/fork)
+[![GitHub stars](https://img.shields.io/github/stars/engdawood/Rss-to-Telegram-Bot?style=social)](https://github.com/engdawood/RSS-to-Telegram-Bot/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/engdawood/RSS-to-Telegram-Bot?style=social)](https://github.com/engdawood/RSS-to-Telegram-Bot/fork)
 
 [![Telegram bot](https://img.shields.io/badge/bot-%40RSStT__Bot-229ed9?logo=telegram&style=for-the-badge)](https://t.me/NewRSSBbot)
 

@@ -1,6 +1,6 @@
 # Project Overview
 
-This project is a Telegram bot that fetches RSS feeds and sends them to Telegram channels. It is written in Python and uses the `telethon` library to interact with the Telegram API, `feedparser` to parse RSS feeds, and `tortoise-orm` for database operations. The bot supports multiple users, internationalization, and rich text formatting.
+This project is a Telegram bot that fetches RSS feeds and sends them to Telegram . It is written in Python and uses the `telethon` library to interact with the Telegram API, `feedparser` to parse RSS feeds, and `tortoise-orm` for database operations. The bot supports multiple users, internationalization, and rich text formatting.
 
 # Building and Running
 
@@ -9,7 +9,9 @@ This project is a Telegram bot that fetches RSS feeds and sends them to Telegram
 Install the required dependencies using pip:
 
 ```bash
+
 pip install -r requirements.txt
+
 ```
 
 **2. Configuration:**
