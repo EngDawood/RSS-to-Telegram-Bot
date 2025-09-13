@@ -1,87 +1,86 @@
-<a href="https://t.me/NewRSSBbot"><img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="newRSSBot icon" src="docs/resources/newRSSBot_icon.svg"/><a/>
+<a href="https://t.me/Yemenhrbot"><img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="newRSSBot icon" src="docs/resources/newRSSBot_icon.svg"/><a/>
 
-# [RSS to Telegram Bot](https://t.me/NewRSSBbot)
+# [RSS to Telegram Bot](https://t.me/Yemenhrbot)
 
-**关心你的阅读体验的 Telegram RSS 机器人**
+**A Telegram RSS bot that cares about your reading experience**
 
-
-[![GitHub last commit (dev)](https://img.shields.io/github/last-commit/Jv0id/RSS-to-Telegram-Bot/dev?logo=github)](https://github.com/Jv0id/RSS-to-Telegram-Bot/commits/dev)
+[![GitHub last commit (dev)](https://img.shields.io/github/last-commit/EngDawood/RSS-to-Telegram-Bot/dev?logo=github)](https://github.com/EngDawood/RSS-to-Telegram-Bot/commits/dev)
 [![Translating status](https://img.shields.io/weblate/progress/rss-to-telegram-bot?logo=weblate&color=informational)](https://hosted.weblate.org/engage/rss-to-telegram-bot/)
-[![GitHub stars](https://img.shields.io/github/stars/Jv0id/Rss-to-Telegram-Bot?style=social)](https://github.com/Jv0id/RSS-to-Telegram-Bot/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Jv0id/RSS-to-Telegram-Bot?style=social)](https://github.com/Jv0id/RSS-to-Telegram-Bot/fork)
+[![GitHub stars](https://img.shields.io/github/stars/EngDawood/Rss-to-Telegram-Bot?style=social)](https://github.com/EngDawood/RSS-to-Telegram-Bot/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/EngDawood/RSS-to-Telegram-Bot?style=social)](https://github.com/EngDawood/RSS-to-Telegram-Bot/fork)
 
-[![Telegram bot](https://img.shields.io/badge/bot-%40RSStT__Bot-229ed9?logo=telegram&style=for-the-badge)](https://t.me/NewRSSBbot)
+[![Telegram bot](https://img.shields.io/badge/bot-%40RSStT__Bot-229ed9?logo=telegram&style=for-the-badge)](https://t.me/Yemenhrbot)
 
-# 欢迎加入telegram [有声小说频道](https://t.me/youshenggushi) [![Telegram](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Ftelegram%2Fyoushenggushi&query=count&color=2CA5E0&label=Telegram&labelColor=282c34&logo=telegram&suffix=+members&cacheSeconds=3600)](https://t.me/youshenggushi)
+# Welcome to join the Telegram [Audio Novel Channel](https://t.me/youshenggushi) [![Telegram](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Ftelegram%2Fyoushenggushi&query=count&color=2CA5E0&label=Telegram&labelColor=282c34&logo=telegram&suffix=+members&cacheSeconds=3600)](https://t.me/youshenggushi)
 
-|  [更新日志]  | [FAQ] |  [文档]  | [使用 RSS_BOT 的频道] |
+|  [Changelog]  | [FAQ] |  [Documentation]  | [Channels using RSS_BOT] |
 |:--------:|-------|:------:|:--------------:|
 
-[更新日志]: docs/CHANGELOG.zh.md
+[Changelog]: docs/CHANGELOG.zh.md
 
 [FAQ]: docs/FAQ.zh.md
 
-[文档]: docs
+[Documentation]: docs
 
-[使用 RSS_BOT 的频道]: docs/channels-using-rsstt.md
+[Channels using RSS_BOT]: docs/channels-using-rsstt.md
 
-## 亮点
+## Highlights
 
-- 多用户
-- 国际化
-    - 英语、中文、粤语、意大利语还有[更多](docs/translation-guide.md)！
-- RSS 源的文章内容可被发送至 Telegram
-    - 保持富文本格式
-    - 保持媒体文件 (可自定义)
-        - 在文章内容或者 enclosure 里的图片、视频、音频；和在文章 enclosure 里的文档
-        - 长图会作为文件发送，防止 Telegram 将它压缩得不可读
-        - 丢弃烦人的图标，它们破坏了阅读体验
-    - 自动替换 emoji shortcodes 为 emoji
-    - 自动替换满足某些特征的表情图片为 emoji 或其描述文本
-    - 自动判断 RSS 源的标题是否为自动填充，并自动选择是否略去标题 (可自定义)
-    - 自动显示作者名 (可自定义)
-    - 自动切分超长消息
-        - 如果配置了 Telegraph，消息会通过 Telegraph 发出 (可自定义)
-- [丰富的自定义格式设定](docs/formatting-settings.md)
-    - Hashtag、自定义标题，等等
-- 为 Telegram 和 RSS 源配置独立的代理设置
-- OPML 导入和导出 (保持自定义标题)
-- 自定义订阅
-- 优化的性能 (参见 [FAQ](docs/FAQ.zh.md#q-bot-的性能怎么样))
-- 用户友好
-- HTTP 缓存
+- Multi-user support
+- Internationalization
+    - English, Chinese, Cantonese, Italian and [more](docs/translation-guide.md)!
+- RSS feed article content can be sent to Telegram
+    - Preserve rich text formatting
+    - Preserve media files (customizable)
+        - Images, videos, audio in article content or enclosures; and documents in article enclosures
+        - Long images are sent as files to prevent Telegram from compressing them to unreadable quality
+        - Discard annoying icons that ruin the reading experience
+    - Auto-replace emoji shortcodes with emoji
+    - Auto-replace emoticon images that meet certain characteristics with emoji or their descriptive text
+    - Auto-detect if RSS feed titles are auto-generated and automatically choose whether to omit titles (customizable)
+    - Auto-display author names (customizable)
+    - Auto-split overly long messages
+        - If Telegraph is configured, messages will be sent via Telegraph (customizable)
+- [Rich custom formatting settings](docs/formatting-settings.md)
+    - Hashtags, custom titles, and more
+- Configure independent proxy settings for Telegram and RSS feeds
+- OPML import and export (preserving custom titles)
+- Custom subscriptions
+- Optimized performance (see [FAQ](docs/FAQ.zh.md#q-bot-的性能怎么样))
+- User-friendly
+- HTTP caching
 
-## 部署
+## Deployment
 
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/rsstt?logo=python&label=&labelColor=white)](https://www.python.org)
 [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/jp0id/rss-to-telegram/latest?logo=docker)](https://hub.docker.com/r/jp0id/rss-to-telegram)
 [![Docker pulls](https://img.shields.io/docker/pulls/jp0id/rss-to-telegram?label=pulls&logo=docker&color=informational)](https://hub.docker.com/r/jp0id/rss-to-telegram)
 
-部署 RSS_BOT 实例非常简单。最推荐的部署方式是 Docker Compose: 它适合几乎所有 VPS。[Railway.app](https://railway.app) (一个 PaaS 平台) 也得到了官方支持。您也可以使用 pip 从 PyPI (跟踪 `master` 分支) 或 TestPyPI (跟踪最新的 `dev` 分支) 安装 RSS_BOT。对于开发人员或有经验的用户，从源代码直接运行也是一个选项。
+Deploying an RSS_BOT instance is very simple. The most recommended deployment method is Docker Compose: it's suitable for almost all VPS. [Railway.app](https://railway.app) (a PaaS platform) is also officially supported. You can also install RSS_BOT using pip from PyPI (tracking the `master` branch) or TestPyPI (tracking the latest `dev` branch). For developers or experienced users, running directly from source code is also an option.
 
 <a href="docs/deployment-guide.md#option-2-railwayapp"><img src="https://railway.app/button.svg" height="30" alt="Deploy on Railway"></a>
 
-详情请参阅[部署指南](docs/deployment-guide.md)。
+Please refer to the [Deployment Guide](docs/deployment-guide.md) for details.
 
-## 翻译
+## Translation
 
-在[这里](docs/translation-guide.md)阅读翻译指南。
+Read the translation guide [here](docs/translation-guide.md).
 
-你可以通过 [Hosted Weblate](https://hosted.weblate.org/projects/rss-to-telegram-bot/) 帮助翻译这个 bot。特别感谢他们为自由项目提供的免费托管服务！
+You can help translate this bot through [Hosted Weblate](https://hosted.weblate.org/projects/rss-to-telegram-bot/). Special thanks to them for providing free hosting services for free projects!
 
 <a href="https://hosted.weblate.org/engage/rss-to-telegram-bot/"><img src="https://hosted.weblate.org/widgets/rss-to-telegram-bot/zh_Hans/glossary/multi-auto.svg" width = "500" alt="" /></a>
 
-## 使用公共 bot
+## Using the Public Bot
 
-[公共 bot](https://t.me/NewRSSBbot) 没有服务保障。我会尽我所能维护它，但不能保证它永远完美运作。同时，你应该遵循“公平使用”，避免订阅过多 RSS 源。  
-如果你在频道里使用[公共 bot](https://t.me/NewRSSBbot) ，请考虑在频道简介 (或置顶消息) 里提及这个 bot (或这个项目)，来让更多人了解本项目。这不是强制的。
+The [public bot](https://t.me/Yemenhrbot) comes with no service guarantee. I will do my best to maintain it, but cannot guarantee it will work perfectly forever. Also, you should follow "fair use" principles and avoid subscribing to too many RSS feeds.  
+If you use the [public bot](https://t.me/Yemenhrbot) in your channel, please consider mentioning this bot (or this project) in your channel description (or pinned message) to let more people know about this project. This is not mandatory.
 
-## 使用 RSS_BOT 的频道
+## Channels Using RSS_BOT
 
-想要预览 RSS_BOT 发送的消息的模样吗？这里有一个[使用 RSStT 的频道列表](docs/channels-using-rsstt.md)
+Want to preview what messages sent by RSS_BOT look like? Here's a [list of channels using RSStT](docs/channels-using-rsstt.md)
 
-## 许可证
+## License
 
-本项目根据 [AGPLv3](LICENSE) 授权。严禁闭源的分发或机器人托管。如果你修改了代码并分发或托管它，请确保任何可以使用你的 bot 的用户都可以获得源代码 (通过在 [`src/i18n/__init__.py`](src/i18n/__init__.py) 中编辑仓库 URL)。
+This project is licensed under [AGPLv3](LICENSE). Closed-source distribution or bot hosting is strictly prohibited. If you modify the code and distribute or host it, please ensure that any user who can use your bot can obtain the source code (by editing the repository URL in [`src/i18n/__init__.py`](src/i18n/__init__.py)).
 
-本仓库原是 [Rongronggg9/RSS-to-Telegram-Bot](https://github.com/Rongronggg9/RSS-to-Telegram-Bot) 的一个 fork。仅更改了telegraph部分布局。
+This repository is originally a fork of [Rongronggg9/RSS-to-Telegram-Bot](https://github.com/Rongronggg9/RSS-to-Telegram-Bot). Only the Telegraph layout section has been modified.
